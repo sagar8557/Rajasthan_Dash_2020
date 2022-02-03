@@ -1,6 +1,7 @@
-# !pip install streamlit
-# !pip install folium
-# !pip install geopandas
+!pip install streamlit --upgrade --quiet
+!pip install folium --upgrade --quiet
+!pip install geopandas  --upgrade --quiet
+
 import streamlit as st
 import pandas as pd
 import numpy as np
