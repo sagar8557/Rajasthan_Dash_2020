@@ -223,6 +223,8 @@ else:
         HtmlFile = open("gc_map.html", 'r', encoding='utf-8')
         source_code = HtmlFile.read()
         HtmlFile.close()
+        
+        
 
         # Showing map in streamlit
         components.html(source_code, width=750, height=700)
